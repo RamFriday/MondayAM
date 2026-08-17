@@ -1,0 +1,13 @@
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+
+# Data directory (source documents + ChromaDB persistent storage)
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
